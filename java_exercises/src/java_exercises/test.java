@@ -19,13 +19,19 @@ public class test {
 //		
 //		System.out.println("Area: "+rectangle.area());
 //		System.out.println("perimeter: "+rectangle.perimeter());
-
-		Circle circle = new Circle(5);
-		System.out.println(circle.getRadius());
-		System.out.println(circle.area()+", "+circle.circunferencia());
-		circle.setRadius(8);
-		System.out.println(circle.getRadius());
-		System.out.println(circle.area()+", "+circle.circunferencia());
+//
+//		Circle circle = new Circle(5);
+//		System.out.println(circle.getRadius());
+//		System.out.println(circle.area()+", "+circle.circunferencia());
+//		circle.setRadius(8);
+//		System.out.println(circle.getRadius());
+//		System.out.println(circle.area()+", "+circle.circunferencia());
+//		
+		
+		Employee employee = new Employee("anthony", "programmer", 3000);
+		System.out.println("the new worker name is "+employee.getName()+" as a "+employee.getJobTitle()+" with a salary of "+employee.getSalary());
+		employee.setSalary(4000);
+		System.out.println(employee.getName()+" new salary is "+employee.getSalary());
 		
 	}
 
